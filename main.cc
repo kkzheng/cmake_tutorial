@@ -1,13 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
-double power(double base, int exp) {
-  int res = 1;
-  for (int i = 1; i <= exp; i++) {
-    res *= base;
-  }
-  return res;
-}
+#include "my_power.h"
 
 int main(int argc, char *argv[]) {
   if (argc < 3) {
